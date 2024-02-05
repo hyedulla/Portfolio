@@ -430,3 +430,18 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Add space between the details containers */
+.details-container {
+  margin-bottom: 20px; /* Adjust the value as needed */
+}
+
+/* Optionally, add some padding inside each container for better spacing of content */
+.article-container {
+  padding: 10px; /* Adjust the value as needed */
+}
+
+.text-container p {
+  margin-bottom: 20px; /* This adds space between paragraphs */
+}
+

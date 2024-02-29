@@ -4,7 +4,8 @@ function toggleMenu() {
     menu.classList.toggle("open");
     icon.classList.toggle("open");
   }
- document.addEventListener('DOMContentLoaded', function() {
+  
+  document.addEventListener('DOMContentLoaded', function() {
     setInterval(alternateRoleTitle, 2000); // Change text every 2 seconds
   });
   
@@ -25,4 +26,6 @@ function toggleMenu() {
       element.classList.add('fade-in');
       setTimeout(() => element.classList.remove('fade-in'), 1000); // Remove fade-in class to reset the state for the next change
     }, 1000); // This matches the duration of the fade-out animation
-  }  
+  }
+  
+  

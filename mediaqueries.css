@@ -128,3 +128,44 @@
   animation: fadeIn 1s forwards;
 }
 
+.certifications-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#certifications .certifications-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#certifications .certification-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allows items to wrap if not enough space */
+  gap: 20px; /* Adjust the space between certification boxes */
+  margin-bottom: 20px; /* Space between rows */
+}
+
+#certifications .details-container {
+  /* Style your containers (e.g., border, padding) */
+  padding: 20px;
+  border: 1px solid #ccc; /* Example styling */
+  width: calc(50% - 10px); /* Adjust width as needed, accounting for gap */
+}
+
+#certifications .btn.btn-color-1 {
+  /* Button styling */
+  background-color: #007bff; /* Example primary color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block; /* To ensure proper button styling */
+}
+
+#certifications .btn.btn-color-1:hover {
+  background-color: #0056b3; /* Darker shade for hover effect */
+}
